@@ -17,31 +17,29 @@ body {
   background-image: url(/assets/clock.png);
   background-size: 100%;
 }
-#hover,
+#hour,
 #minute,
 #second {
   position: absolute;
   background: black;
   border-radius: 10rem;
+  transform-origin: bottom;
 }
-#hover {
-  top: 23%;
+#hour {
+  top: 26%;
   left: 48.8%;
   width: 0.9rem;
-  height: 10rem;
-  background-color: black;
+  height: 9rem;
 }
 #minute {
-  top: 20%;
+  top: 19%;
   left: 49%;
   width: 0.6rem;
   height: 13rem;
-  background-color: black;
 }
 #second {
-  top: 16%;
+  top: 14%;
   left: 49%;
   width: 0.5rem;
-  height: 14rem;
-  background-color: black;
+  height: 15rem;
 }
