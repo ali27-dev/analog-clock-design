@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 65.5%;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+#clockcontainer {
+  position: relative;
+  margin: auto;
+  width: 40rem;
+  height: 40rem;
+  background-image: url(/assets/clock.png);
+  background-size: 100%;
+}
